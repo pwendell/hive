@@ -19,9 +19,9 @@
     <artifactId>apache</artifactId>
     <version>14</version>
   </parent>
-  <groupId>org.apache.hive</groupId>
+  <groupId>org.spark-project.hive</groupId>
   <artifactId>hive</artifactId>
-  <version>1.2.1.spark</version>
+  <version>1.2.1.1.spark</version>
   <packaging>pom</packaging>
 
   <!-- See http://central.sonatype.org/pages/apache-maven.html -->
@@ -127,7 +127,7 @@
     <commons-dbcp.version>1.4</commons-dbcp.version>
     <derby.version>10.10.2.0</derby.version>
     <guava.version>14.0.1</guava.version>
-    <groovy.version>2.1.6</groovy.version>
+    <groovy.version>2.4.4</groovy.version>
     <hadoop-20S.version>1.2.1</hadoop-20S.version>
     <hadoop-23.version>2.6.0</hadoop-23.version>
     <hadoop.bin.path>${basedir}/${hive.path.to.root}/testutils/hadoop</hadoop.bin.path>
